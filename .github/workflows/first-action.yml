@@ -1,0 +1,10 @@
+name: Breda Workflow
+on: workflow_dispatch
+jobs:
+  breda-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Simple command
+          run: echo "Testing GitHub Actions"
+        - name: Ubuntu command
+          run: whoami
